@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(112, 181, 224);
+    color: blue;
+   font-size: 16px;
+   font-weight: normal;
+   font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: rgb(80, 80, 148);
+  text-decoration: none;  
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+a:active {
+    color: blue;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 29px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width:700px) {
+  .info {
+    text-align: center;  
+    display: block;  
+  }  
+    
+}
+
+.info-text {
+  margin-left: 40px; 
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: rgb(80, 80, 148);
+    margin: 0;
+    font-style: italic;
+}
+
+.container {
+   max-width: 750px;
+   margin: auto;
+   padding-top: 30px;
+
+} 
+  
+
+/* .social {
+    background: coral;
+    padding: 15px;
+
+    border: 5px solid red ;
+    margin: 20px;
+} */
+
+/* .box-model > div {
+    float: left;
+    background: #000;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+} */
+
+.bg-color {
+    background: #30cef5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+  color:  rgb(80, 80, 148);
+  margin-bottom: 10px;  
+
+}
+
+.table {
+  width: 100%;  
+
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: rgb(80, 80, 148);
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;  
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(80, 80, 148);
+}
+
+.contact h3 {
+    text-align: center;
+
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: rgb(49, 49, 104);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+    
+}
+
+.row > .form-group:last-child {
+    margin-right: 0px;
+}
+
+.btn {
+    text-align: center;
+    border-radius: 15px;
+  background: #16a0c2;
+  padding: 15px 10px;
+  color: blue;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;  
+}
+
+.btn:hover {
+  opacity: 0.9;  
+}
+
+/* .position {
+  position: relative;  
+  border: 4px solid black;
+  margin-top: 40px;
+  padding: 20px;
+  height: 300px;  
+
+}
+
+.box {
+  position: fixed;
+  bottom: 50px; 
+  right: 50px;
+  border-radius: 50%; 
+  width: 50px;
+  height: 50px;
+  background: lightcoral;  
+
+
+}
+ */
